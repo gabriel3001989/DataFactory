@@ -1,0 +1,9 @@
+{
+	"name": "gramosdatafactory",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ef91902d-c6b3-421b-b8ba-aef711ea2f66",
+		"tenantId": "4ccf35c9-2c46-4749-89a5-b572628ce13a"
+	}
+}
