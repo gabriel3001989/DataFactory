@@ -1,0 +1,25 @@
+{
+	"name": "Ejecuta_pipeline_programada",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "ejecuta_todo",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 10,
+				"startTime": "2024-10-04T00:00:00",
+				"endTime": "2024-10-06T05:22:00",
+				"timeZone": "SA Pacific Standard Time"
+			}
+		}
+	}
+}
